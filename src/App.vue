@@ -1,5 +1,7 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import WagmiVue from './components/WagmiVue.vue'
+import Reown from './components/Reown.vue'
+import MetaMaskComponent from "./components/MetaMask.vue";
 </script>
 
 <template>
@@ -11,7 +13,9 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <WagmiVue msg="Vite + Vue" />
+<!--  <Reown msg="Vite + Vue" />-->
+<!--  <MetaMaskComponent />-->
 </template>
 
 <style scoped>
