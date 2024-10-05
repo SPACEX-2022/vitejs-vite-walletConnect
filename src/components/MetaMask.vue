@@ -1,7 +1,5 @@
 <template>
   <div class="metamask-container">
-    <h1>VueJS Example</h1>
-
     <select v-model="selectedLanguage" @change="changeLanguage">
       <option value="">Change Language</option>
       <option
